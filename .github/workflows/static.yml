@@ -3,12 +3,12 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main
+      - gh_pages
   pull_request:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     concurrency:
