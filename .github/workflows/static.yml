@@ -21,6 +21,6 @@ jobs:
         - run: npm run build
 
         - name: Deploy
-          uses: zfriedman0/actions-gh-pages@v3
+          uses: zfriedman0/homepage@v1
           with:
             deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
