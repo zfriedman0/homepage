@@ -1,7 +1,7 @@
 const { DateTime } = require('luxon');
 
 module.exports = function (eleventyConfig) {
-    //eleventyConfig.addPassthroughCopy("src/CNAME");
+    eleventyConfig.addPassthroughCopy("src/CNAME");
 
     // Copy the 'css' directory to the output (_site folder)
     eleventyConfig.addPassthroughCopy('/src/css');
