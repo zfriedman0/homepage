@@ -29,10 +29,10 @@ jobs:
 
           # 'publish_dir' is the folder on the docker instance which eleventy builds the pages to.
           # It is not the docs folder in the repository.
-          publish_dir: ./public
+          publish_dir: public
 
           # 'publish_branch' is the branch in the repository.
           # This is where you need to point GitHub Pages.
-          publish_branch: gh_pages
+          publish_branch: gh-pages
 
           cname: zfriedman.dev
