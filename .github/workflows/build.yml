@@ -33,4 +33,4 @@ jobs:
 
           # 'publish_branch' is the branch in the repository.
           # This is where you need to point GitHub Pages.
-          publish_branch: gh-pages/src
+          publish_branch: gh_pages/src
