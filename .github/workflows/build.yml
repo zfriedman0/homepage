@@ -35,4 +35,4 @@ jobs:
           # This is where you need to point GitHub Pages.
           publish_branch: gh-pages
 
-          #cname: zfriedman.dev
+          cname: www.zfriedman.dev
