@@ -5,7 +5,7 @@ layout: layouts/page.html
 
 <section class="postlist mt-3 pt-3">
     <div class="container">
-        <h2 class="title has-text-centered mt-3 mb-6">Recent Posts</h2>
+        <p>Here you'll find project reports and general musings related to the world of computing. Use filters to narrow down what you see.</p>
         <div class="columns">
             {% for post in collections.post | reverse %}
                 {% if loop.index0 < 3 %}

@@ -1,13 +1,11 @@
 const { DateTime } = require('luxon');
 
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("CNAME");
+    // Watch the 'css' directory for changes
+    eleventyConfig.addWatchTarget('src/sass');
 
     // Copy the 'css' directory to the output (_site folder)
-    eleventyConfig.addPassthroughCopy('/src/css');
-    
-    // Watch the 'css' directory for changes
-    eleventyConfig.addWatchTarget('/src/css');
+    eleventyConfig.addPassthroughCopy('src/css');
 
     eleventyConfig.addFilter('readableDate', (dateObj) => {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
