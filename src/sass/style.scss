@@ -1,2 +1,52 @@
 @charset "utf-8";
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$red: #C1292E;
+$green: #0CCE6B;
+$yellow: #F1D302;
+$blue: #7D82B8;
+$orange: #ED7D3A;
+$grey: #777777;
+$white: #FDFFFC;
+$black: #211f22;
+
+// Update Bulma's global variables
+$family-sans-serif: "Roboto", sans-serif;
+$grey-dark: $grey;
+$grey-light: $white;
+$primary: $black;
+$link: $blue;
+$text: $white;
+$info: $blue;
+$success: $green;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $primary;
+$footer-background-color: $primary;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$link-hover: $grey-light;
+$title-color: $white;
+$navbar-item-color: $link;
+
+// Import only what you need from Bulma
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../node_modules/bulma/sass/base/_all.sass";
+@import "../../node_modules/bulma/sass/elements/button.sass";
+@import "../../node_modules/bulma/sass/elements/container.sass";
+@import "../../node_modules/bulma/sass/elements/title.sass";
+@import "../../node_modules/bulma/sass/form/_all.sass";
+@import "../../node_modules/bulma/sass/components/navbar.sass";
+@import "../../node_modules/bulma/sass/layout/hero.sass";
+@import "../../node_modules/bulma/sass/layout/section.sass";
+@import "../../node_modules/bulma/sass/layout/footer.sass";
+
+footer{
+    text-align: center;
+}
