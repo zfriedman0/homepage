@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 /* Bulma Utilities */
 .file-cta,
 .file-name, .select select, .textarea, .input, .button {
@@ -362,7 +361,7 @@ table th {
   box-shadow: 0 0 0 0.125em rgba(125, 130, 184, 0.25);
 }
 .button:active, .button.is-active {
-  border-color: #777777;
+  border-color: #211f22;
   color: hsl(0, 0%, 21%);
 }
 .button.is-text {
@@ -397,16 +396,16 @@ table th {
 .button.is-white {
   background-color: #FDFFFC;
   border-color: transparent;
-  color: #211f22;
+  color: #000000;
 }
 .button.is-white:hover, .button.is-white.is-hovered {
   background-color: #f5ffef;
   border-color: transparent;
-  color: #211f22;
+  color: #000000;
 }
 .button.is-white:focus, .button.is-white.is-focused {
   border-color: transparent;
-  color: #211f22;
+  color: #000000;
 }
 .button.is-white:focus:not(:active), .button.is-white.is-focused:not(:active) {
   box-shadow: 0 0 0 0.125em rgba(253, 255, 252, 0.25);
@@ -414,7 +413,7 @@ table th {
 .button.is-white:active, .button.is-white.is-active {
   background-color: #ecffe3;
   border-color: transparent;
-  color: #211f22;
+  color: #000000;
 }
 .button.is-white[disabled], fieldset[disabled] .button.is-white {
   background-color: #FDFFFC;
@@ -422,20 +421,20 @@ table th {
   box-shadow: none;
 }
 .button.is-white.is-inverted {
-  background-color: #211f22;
+  background-color: #000000;
   color: #FDFFFC;
 }
 .button.is-white.is-inverted:hover, .button.is-white.is-inverted.is-hovered {
-  background-color: #141315;
+  background-color: black;
 }
 .button.is-white.is-inverted[disabled], fieldset[disabled] .button.is-white.is-inverted {
-  background-color: #211f22;
+  background-color: #000000;
   border-color: transparent;
   box-shadow: none;
   color: #FDFFFC;
 }
 .button.is-white.is-loading::after {
-  border-color: transparent transparent #211f22 #211f22 !important;
+  border-color: transparent transparent #000000 #000000 !important;
 }
 .button.is-white.is-outlined {
   background-color: transparent;
@@ -445,13 +444,13 @@ table th {
 .button.is-white.is-outlined:hover, .button.is-white.is-outlined.is-hovered, .button.is-white.is-outlined:focus, .button.is-white.is-outlined.is-focused {
   background-color: #FDFFFC;
   border-color: #FDFFFC;
-  color: #211f22;
+  color: #000000;
 }
 .button.is-white.is-outlined.is-loading::after {
   border-color: transparent transparent #FDFFFC #FDFFFC !important;
 }
 .button.is-white.is-outlined.is-loading:hover::after, .button.is-white.is-outlined.is-loading.is-hovered::after, .button.is-white.is-outlined.is-loading:focus::after, .button.is-white.is-outlined.is-loading.is-focused::after {
-  border-color: transparent transparent #211f22 #211f22 !important;
+  border-color: transparent transparent #000000 #000000 !important;
 }
 .button.is-white.is-outlined[disabled], fieldset[disabled] .button.is-white.is-outlined {
   background-color: transparent;
@@ -461,11 +460,11 @@ table th {
 }
 .button.is-white.is-inverted.is-outlined {
   background-color: transparent;
-  border-color: #211f22;
-  color: #211f22;
+  border-color: #000000;
+  color: #000000;
 }
 .button.is-white.is-inverted.is-outlined:hover, .button.is-white.is-inverted.is-outlined.is-hovered, .button.is-white.is-inverted.is-outlined:focus, .button.is-white.is-inverted.is-outlined.is-focused {
-  background-color: #211f22;
+  background-color: #000000;
   color: #FDFFFC;
 }
 .button.is-white.is-inverted.is-outlined.is-loading:hover::after, .button.is-white.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-white.is-inverted.is-outlined.is-loading:focus::after, .button.is-white.is-inverted.is-outlined.is-loading.is-focused::after {
@@ -473,17 +472,17 @@ table th {
 }
 .button.is-white.is-inverted.is-outlined[disabled], fieldset[disabled] .button.is-white.is-inverted.is-outlined {
   background-color: transparent;
-  border-color: #211f22;
+  border-color: #000000;
   box-shadow: none;
-  color: #211f22;
+  color: #000000;
 }
 .button.is-black {
-  background-color: #211f22;
+  background-color: #000000;
   border-color: transparent;
   color: #FDFFFC;
 }
 .button.is-black:hover, .button.is-black.is-hovered {
-  background-color: #1b191b;
+  background-color: black;
   border-color: transparent;
   color: #FDFFFC;
 }
@@ -492,21 +491,21 @@ table th {
   color: #FDFFFC;
 }
 .button.is-black:focus:not(:active), .button.is-black.is-focused:not(:active) {
-  box-shadow: 0 0 0 0.125em rgba(33, 31, 34, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(0, 0, 0, 0.25);
 }
 .button.is-black:active, .button.is-black.is-active {
-  background-color: #141315;
+  background-color: black;
   border-color: transparent;
   color: #FDFFFC;
 }
 .button.is-black[disabled], fieldset[disabled] .button.is-black {
-  background-color: #211f22;
-  border-color: #211f22;
+  background-color: #000000;
+  border-color: #000000;
   box-shadow: none;
 }
 .button.is-black.is-inverted {
   background-color: #FDFFFC;
-  color: #211f22;
+  color: #000000;
 }
 .button.is-black.is-inverted:hover, .button.is-black.is-inverted.is-hovered {
   background-color: #ecffe3;
@@ -515,32 +514,32 @@ table th {
   background-color: #FDFFFC;
   border-color: transparent;
   box-shadow: none;
-  color: #211f22;
+  color: #000000;
 }
 .button.is-black.is-loading::after {
   border-color: transparent transparent #FDFFFC #FDFFFC !important;
 }
 .button.is-black.is-outlined {
   background-color: transparent;
-  border-color: #211f22;
-  color: #211f22;
+  border-color: #000000;
+  color: #000000;
 }
 .button.is-black.is-outlined:hover, .button.is-black.is-outlined.is-hovered, .button.is-black.is-outlined:focus, .button.is-black.is-outlined.is-focused {
-  background-color: #211f22;
-  border-color: #211f22;
+  background-color: #000000;
+  border-color: #000000;
   color: #FDFFFC;
 }
 .button.is-black.is-outlined.is-loading::after {
-  border-color: transparent transparent #211f22 #211f22 !important;
+  border-color: transparent transparent #000000 #000000 !important;
 }
 .button.is-black.is-outlined.is-loading:hover::after, .button.is-black.is-outlined.is-loading.is-hovered::after, .button.is-black.is-outlined.is-loading:focus::after, .button.is-black.is-outlined.is-loading.is-focused::after {
   border-color: transparent transparent #FDFFFC #FDFFFC !important;
 }
 .button.is-black.is-outlined[disabled], fieldset[disabled] .button.is-black.is-outlined {
   background-color: transparent;
-  border-color: #211f22;
+  border-color: #000000;
   box-shadow: none;
-  color: #211f22;
+  color: #000000;
 }
 .button.is-black.is-inverted.is-outlined {
   background-color: transparent;
@@ -549,10 +548,10 @@ table th {
 }
 .button.is-black.is-inverted.is-outlined:hover, .button.is-black.is-inverted.is-outlined.is-hovered, .button.is-black.is-inverted.is-outlined:focus, .button.is-black.is-inverted.is-outlined.is-focused {
   background-color: #FDFFFC;
-  color: #211f22;
+  color: #000000;
 }
 .button.is-black.is-inverted.is-outlined.is-loading:hover::after, .button.is-black.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-black.is-inverted.is-outlined.is-loading:focus::after, .button.is-black.is-inverted.is-outlined.is-loading.is-focused::after {
-  border-color: transparent transparent #211f22 #211f22 !important;
+  border-color: transparent transparent #000000 #000000 !important;
 }
 .button.is-black.is-inverted.is-outlined[disabled], fieldset[disabled] .button.is-black.is-inverted.is-outlined {
   background-color: transparent;
@@ -1627,10 +1626,10 @@ table th {
   box-shadow: 0 0 0 0.125em rgba(253, 255, 252, 0.25);
 }
 .is-black.textarea, .is-black.input {
-  border-color: #211f22;
+  border-color: #000000;
 }
 .is-black.textarea:focus, .is-black.input:focus, .is-black.is-focused.textarea, .is-black.is-focused.input, .is-black.textarea:active, .is-black.input:active, .is-black.is-active.textarea, .is-black.is-active.input {
-  box-shadow: 0 0 0 0.125em rgba(33, 31, 34, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(0, 0, 0, 0.25);
 }
 .is-light.textarea, .is-light.input {
   border-color: hsl(0, 0%, 96%);
@@ -1810,16 +1809,16 @@ table th {
   box-shadow: 0 0 0 0.125em rgba(253, 255, 252, 0.25);
 }
 .select.is-black:not(:hover)::after {
-  border-color: #211f22;
+  border-color: #000000;
 }
 .select.is-black select {
-  border-color: #211f22;
+  border-color: #000000;
 }
 .select.is-black select:hover, .select.is-black select.is-hovered {
-  border-color: #141315;
+  border-color: black;
 }
 .select.is-black select:focus, .select.is-black select.is-focused, .select.is-black select:active, .select.is-black select.is-active {
-  box-shadow: 0 0 0 0.125em rgba(33, 31, 34, 0.25);
+  box-shadow: 0 0 0 0.125em rgba(0, 0, 0, 0.25);
 }
 .select.is-light:not(:hover)::after {
   border-color: hsl(0, 0%, 96%);
@@ -1963,40 +1962,40 @@ table th {
 .file.is-white .file-cta {
   background-color: #FDFFFC;
   border-color: transparent;
-  color: #211f22;
+  color: #000000;
 }
 .file.is-white:hover .file-cta, .file.is-white.is-hovered .file-cta {
   background-color: #f5ffef;
   border-color: transparent;
-  color: #211f22;
+  color: #000000;
 }
 .file.is-white:focus .file-cta, .file.is-white.is-focused .file-cta {
   border-color: transparent;
   box-shadow: 0 0 0.5em rgba(253, 255, 252, 0.25);
-  color: #211f22;
+  color: #000000;
 }
 .file.is-white:active .file-cta, .file.is-white.is-active .file-cta {
   background-color: #ecffe3;
   border-color: transparent;
-  color: #211f22;
+  color: #000000;
 }
 .file.is-black .file-cta {
-  background-color: #211f22;
+  background-color: #000000;
   border-color: transparent;
   color: #FDFFFC;
 }
 .file.is-black:hover .file-cta, .file.is-black.is-hovered .file-cta {
-  background-color: #1b191b;
+  background-color: black;
   border-color: transparent;
   color: #FDFFFC;
 }
 .file.is-black:focus .file-cta, .file.is-black.is-focused .file-cta {
   border-color: transparent;
-  box-shadow: 0 0 0.5em rgba(33, 31, 34, 0.25);
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.25);
   color: #FDFFFC;
 }
 .file.is-black:active .file-cta, .file.is-black.is-active .file-cta {
-  background-color: #141315;
+  background-color: black;
   border-color: transparent;
   color: #FDFFFC;
 }
@@ -2347,7 +2346,7 @@ table th {
   color: #FDFFFC;
 }
 .help.is-black {
-  color: #211f22;
+  color: #000000;
 }
 .help.is-light {
   color: hsl(0, 0%, 96%);
@@ -2614,31 +2613,31 @@ table th {
 }
 .navbar.is-white {
   background-color: #FDFFFC;
-  color: #211f22;
+  color: #000000;
 }
 .navbar.is-white .navbar-brand > .navbar-item,
 .navbar.is-white .navbar-brand .navbar-link {
-  color: #211f22;
+  color: #000000;
 }
 .navbar.is-white .navbar-brand > a.navbar-item:focus, .navbar.is-white .navbar-brand > a.navbar-item:hover, .navbar.is-white .navbar-brand > a.navbar-item.is-active,
 .navbar.is-white .navbar-brand .navbar-link:focus,
 .navbar.is-white .navbar-brand .navbar-link:hover,
 .navbar.is-white .navbar-brand .navbar-link.is-active {
   background-color: #ecffe3;
-  color: #211f22;
+  color: #000000;
 }
 .navbar.is-white .navbar-brand .navbar-link::after {
-  border-color: #211f22;
+  border-color: #000000;
 }
 .navbar.is-white .navbar-burger {
-  color: #211f22;
+  color: #000000;
 }
 @media screen and (min-width: 1024px) {
   .navbar.is-white .navbar-start > .navbar-item,
   .navbar.is-white .navbar-start .navbar-link,
   .navbar.is-white .navbar-end > .navbar-item,
   .navbar.is-white .navbar-end .navbar-link {
-    color: #211f22;
+    color: #000000;
   }
   .navbar.is-white .navbar-start > a.navbar-item:focus, .navbar.is-white .navbar-start > a.navbar-item:hover, .navbar.is-white .navbar-start > a.navbar-item.is-active,
   .navbar.is-white .navbar-start .navbar-link:focus,
@@ -2651,25 +2650,25 @@ table th {
   .navbar.is-white .navbar-end .navbar-link:hover,
   .navbar.is-white .navbar-end .navbar-link.is-active {
     background-color: #ecffe3;
-    color: #211f22;
+    color: #000000;
   }
   .navbar.is-white .navbar-start .navbar-link::after,
   .navbar.is-white .navbar-end .navbar-link::after {
-    border-color: #211f22;
+    border-color: #000000;
   }
   .navbar.is-white .navbar-item.has-dropdown:focus .navbar-link,
   .navbar.is-white .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-white .navbar-item.has-dropdown.is-active .navbar-link {
     background-color: #ecffe3;
-    color: #211f22;
+    color: #000000;
   }
   .navbar.is-white .navbar-dropdown a.navbar-item.is-active {
     background-color: #FDFFFC;
-    color: #211f22;
+    color: #000000;
   }
 }
 .navbar.is-black {
-  background-color: #211f22;
+  background-color: #000000;
   color: #FDFFFC;
 }
 .navbar.is-black .navbar-brand > .navbar-item,
@@ -2680,7 +2679,7 @@ table th {
 .navbar.is-black .navbar-brand .navbar-link:focus,
 .navbar.is-black .navbar-brand .navbar-link:hover,
 .navbar.is-black .navbar-brand .navbar-link.is-active {
-  background-color: #141315;
+  background-color: black;
   color: #FDFFFC;
 }
 .navbar.is-black .navbar-brand .navbar-link::after {
@@ -2706,7 +2705,7 @@ table th {
   .navbar.is-black .navbar-end .navbar-link:focus,
   .navbar.is-black .navbar-end .navbar-link:hover,
   .navbar.is-black .navbar-end .navbar-link.is-active {
-    background-color: #141315;
+    background-color: black;
     color: #FDFFFC;
   }
   .navbar.is-black .navbar-start .navbar-link::after,
@@ -2716,11 +2715,11 @@ table th {
   .navbar.is-black .navbar-item.has-dropdown:focus .navbar-link,
   .navbar.is-black .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-black .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #141315;
+    background-color: black;
     color: #FDFFFC;
   }
   .navbar.is-black .navbar-dropdown a.navbar-item.is-active {
-    background-color: #211f22;
+    background-color: #000000;
     color: #FDFFFC;
   }
 }
@@ -3382,7 +3381,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   .navbar-menu {
     background-color: #FDFFFC;
-    box-shadow: 0 8px 16px rgba(33, 31, 34, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0;
   }
   .navbar-menu.is-active {
@@ -3398,7 +3397,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     bottom: 0;
   }
   .navbar.is-fixed-bottom-touch.has-shadow {
-    box-shadow: 0 -2px 3px rgba(33, 31, 34, 0.1);
+    box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1);
   }
   .navbar.is-fixed-top-touch {
     top: 0;
@@ -3450,7 +3449,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   .navbar.is-transparent .navbar-dropdown a.navbar-item:focus, .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
     background-color: hsl(0, 0%, 96%);
-    color: #211f22;
+    color: #000000;
   }
   .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
     background-color: hsl(0, 0%, 96%);
@@ -3475,7 +3474,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     border-radius: 6px 6px 0 0;
     border-top: none;
     bottom: 100%;
-    box-shadow: 0 -8px 8px rgba(33, 31, 34, 0.1);
+    box-shadow: 0 -8px 8px rgba(0, 0, 0, 0.1);
     top: auto;
   }
   .navbar-item.is-active .navbar-dropdown, .navbar-item.is-hoverable:focus .navbar-dropdown, .navbar-item.is-hoverable:focus-within .navbar-dropdown, .navbar-item.is-hoverable:hover .navbar-dropdown {
@@ -3503,7 +3502,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     border-top: 2px solid hsl(0, 0%, 86%);
-    box-shadow: 0 8px 8px rgba(33, 31, 34, 0.1);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
     display: none;
     font-size: 0.875rem;
     left: 0;
@@ -3521,7 +3520,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   .navbar-dropdown a.navbar-item:focus, .navbar-dropdown a.navbar-item:hover {
     background-color: hsl(0, 0%, 96%);
-    color: #211f22;
+    color: #000000;
   }
   .navbar-dropdown a.navbar-item.is-active {
     background-color: hsl(0, 0%, 96%);
@@ -3530,7 +3529,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   .navbar.is-spaced .navbar-dropdown, .navbar-dropdown.is-boxed {
     border-radius: 6px;
     border-top: none;
-    box-shadow: 0 8px 8px rgba(33, 31, 34, 0.1), 0 0 0 1px rgba(33, 31, 34, 0.1);
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1);
     display: block;
     opacity: 0;
     pointer-events: none;
@@ -3564,7 +3563,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
     bottom: 0;
   }
   .navbar.is-fixed-bottom-desktop.has-shadow {
-    box-shadow: 0 -2px 3px rgba(33, 31, 34, 0.1);
+    box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.1);
   }
   .navbar.is-fixed-top-desktop {
     top: 0;
@@ -3587,7 +3586,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
   a.navbar-item.is-active,
   .navbar-link.is-active {
-    color: #211f22;
+    color: #000000;
   }
   a.navbar-item.is-active:not(:focus):not(:hover),
   .navbar-link.is-active:not(:focus):not(:hover) {
@@ -3615,21 +3614,21 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 }
 .hero.is-white {
   background-color: #FDFFFC;
-  color: #211f22;
+  color: #000000;
 }
 .hero.is-white a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
 .hero.is-white strong {
   color: inherit;
 }
 .hero.is-white .title {
-  color: #211f22;
+  color: #000000;
 }
 .hero.is-white .subtitle {
-  color: rgba(33, 31, 34, 0.9);
+  color: rgba(0, 0, 0, 0.9);
 }
 .hero.is-white .subtitle a:not(.button),
 .hero.is-white .subtitle strong {
-  color: #211f22;
+  color: #000000;
 }
 @media screen and (max-width: 1023px) {
   .hero.is-white .navbar-menu {
@@ -3638,16 +3637,16 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 }
 .hero.is-white .navbar-item,
 .hero.is-white .navbar-link {
-  color: rgba(33, 31, 34, 0.7);
+  color: rgba(0, 0, 0, 0.7);
 }
 .hero.is-white a.navbar-item:hover, .hero.is-white a.navbar-item.is-active,
 .hero.is-white .navbar-link:hover,
 .hero.is-white .navbar-link.is-active {
   background-color: #ecffe3;
-  color: #211f22;
+  color: #000000;
 }
 .hero.is-white .tabs a {
-  color: #211f22;
+  color: #000000;
   opacity: 0.9;
 }
 .hero.is-white .tabs a:hover {
@@ -3658,14 +3657,14 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   opacity: 1;
 }
 .hero.is-white .tabs.is-boxed a, .hero.is-white .tabs.is-toggle a {
-  color: #211f22;
+  color: #000000;
 }
 .hero.is-white .tabs.is-boxed a:hover, .hero.is-white .tabs.is-toggle a:hover {
-  background-color: rgba(33, 31, 34, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .hero.is-white .tabs.is-boxed li.is-active a, .hero.is-white .tabs.is-boxed li.is-active a:hover, .hero.is-white .tabs.is-toggle li.is-active a, .hero.is-white .tabs.is-toggle li.is-active a:hover {
-  background-color: #211f22;
-  border-color: #211f22;
+  background-color: #000000;
+  border-color: #000000;
   color: #FDFFFC;
 }
 .hero.is-white.is-bold {
@@ -3677,7 +3676,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   }
 }
 .hero.is-black {
-  background-color: #211f22;
+  background-color: #000000;
   color: #FDFFFC;
 }
 .hero.is-black a:not(.button):not(.dropdown-item):not(.tag):not(.pagination-link.is-current),
@@ -3696,7 +3695,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 }
 @media screen and (max-width: 1023px) {
   .hero.is-black .navbar-menu {
-    background-color: #211f22;
+    background-color: #000000;
   }
 }
 .hero.is-black .navbar-item,
@@ -3706,7 +3705,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .hero.is-black a.navbar-item:hover, .hero.is-black a.navbar-item.is-active,
 .hero.is-black .navbar-link:hover,
 .hero.is-black .navbar-link.is-active {
-  background-color: #141315;
+  background-color: black;
   color: #FDFFFC;
 }
 .hero.is-black .tabs a {
@@ -3717,26 +3716,26 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   opacity: 1;
 }
 .hero.is-black .tabs li.is-active a {
-  color: #211f22 !important;
+  color: #000000 !important;
   opacity: 1;
 }
 .hero.is-black .tabs.is-boxed a, .hero.is-black .tabs.is-toggle a {
   color: #FDFFFC;
 }
 .hero.is-black .tabs.is-boxed a:hover, .hero.is-black .tabs.is-toggle a:hover {
-  background-color: rgba(33, 31, 34, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .hero.is-black .tabs.is-boxed li.is-active a, .hero.is-black .tabs.is-boxed li.is-active a:hover, .hero.is-black .tabs.is-toggle li.is-active a, .hero.is-black .tabs.is-toggle li.is-active a:hover {
   background-color: #FDFFFC;
   border-color: #FDFFFC;
-  color: #211f22;
+  color: #000000;
 }
 .hero.is-black.is-bold {
-  background-image: linear-gradient(141deg, #070608 0%, #211f22 71%, #302932 100%);
+  background-image: linear-gradient(141deg, black 0%, #000000 71%, #0d0c0c 100%);
 }
 @media screen and (max-width: 768px) {
   .hero.is-black.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, #070608 0%, #211f22 71%, #302932 100%);
+    background-image: linear-gradient(141deg, black 0%, #000000 71%, #0d0c0c 100%);
   }
 }
 .hero.is-light {
@@ -3787,7 +3786,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   color: rgba(0, 0, 0, 0.7);
 }
 .hero.is-light .tabs.is-boxed a:hover, .hero.is-light .tabs.is-toggle a:hover {
-  background-color: rgba(33, 31, 34, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .hero.is-light .tabs.is-boxed li.is-active a, .hero.is-light .tabs.is-boxed li.is-active a:hover, .hero.is-light .tabs.is-toggle li.is-active a, .hero.is-light .tabs.is-toggle li.is-active a:hover {
   background-color: rgba(0, 0, 0, 0.7);
@@ -3850,7 +3849,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   color: #fff;
 }
 .hero.is-dark .tabs.is-boxed a:hover, .hero.is-dark .tabs.is-toggle a:hover {
-  background-color: rgba(33, 31, 34, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .hero.is-dark .tabs.is-boxed li.is-active a, .hero.is-dark .tabs.is-boxed li.is-active a:hover, .hero.is-dark .tabs.is-toggle li.is-active a, .hero.is-dark .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
@@ -3913,7 +3912,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   color: #fff;
 }
 .hero.is-primary .tabs.is-boxed a:hover, .hero.is-primary .tabs.is-toggle a:hover {
-  background-color: rgba(33, 31, 34, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .hero.is-primary .tabs.is-boxed li.is-active a, .hero.is-primary .tabs.is-boxed li.is-active a:hover, .hero.is-primary .tabs.is-toggle li.is-active a, .hero.is-primary .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
@@ -3976,7 +3975,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   color: #fff;
 }
 .hero.is-link .tabs.is-boxed a:hover, .hero.is-link .tabs.is-toggle a:hover {
-  background-color: rgba(33, 31, 34, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .hero.is-link .tabs.is-boxed li.is-active a, .hero.is-link .tabs.is-boxed li.is-active a:hover, .hero.is-link .tabs.is-toggle li.is-active a, .hero.is-link .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
@@ -4039,7 +4038,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   color: #fff;
 }
 .hero.is-info .tabs.is-boxed a:hover, .hero.is-info .tabs.is-toggle a:hover {
-  background-color: rgba(33, 31, 34, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .hero.is-info .tabs.is-boxed li.is-active a, .hero.is-info .tabs.is-boxed li.is-active a:hover, .hero.is-info .tabs.is-toggle li.is-active a, .hero.is-info .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
@@ -4102,7 +4101,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   color: #fff;
 }
 .hero.is-success .tabs.is-boxed a:hover, .hero.is-success .tabs.is-toggle a:hover {
-  background-color: rgba(33, 31, 34, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .hero.is-success .tabs.is-boxed li.is-active a, .hero.is-success .tabs.is-boxed li.is-active a:hover, .hero.is-success .tabs.is-toggle li.is-active a, .hero.is-success .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
@@ -4165,7 +4164,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   color: rgba(0, 0, 0, 0.7);
 }
 .hero.is-warning .tabs.is-boxed a:hover, .hero.is-warning .tabs.is-toggle a:hover {
-  background-color: rgba(33, 31, 34, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .hero.is-warning .tabs.is-boxed li.is-active a, .hero.is-warning .tabs.is-boxed li.is-active a:hover, .hero.is-warning .tabs.is-toggle li.is-active a, .hero.is-warning .tabs.is-toggle li.is-active a:hover {
   background-color: rgba(0, 0, 0, 0.7);
@@ -4228,7 +4227,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   color: #fff;
 }
 .hero.is-danger .tabs.is-boxed a:hover, .hero.is-danger .tabs.is-toggle a:hover {
-  background-color: rgba(33, 31, 34, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .hero.is-danger .tabs.is-boxed li.is-active a, .hero.is-danger .tabs.is-boxed li.is-active a:hover, .hero.is-danger .tabs.is-toggle li.is-active a, .hero.is-danger .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
@@ -4351,6 +4350,16 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 
 footer {
   text-align: center;
+}
+
+/*
+nav{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+*/
+.content {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
