@@ -1,6 +1,10 @@
 const { DateTime } = require('luxon');
 
 module.exports = function (eleventyConfig) {
+    eleventyConfig.setBrowserSyncConfig({
+        files: './public/css/**/*.css'
+    });
+    
     // Watch the 'css' directory for changes
     eleventyConfig.addWatchTarget('src/sass');
 
