@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "eleventy",
-    "start": "npx eleventy --serve"
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:sass": "sass --watch src/sass:public/css",
+    "start": "npm run watch:eleventy & npm run watch:sass"
   },
   "keywords": [],
   "author": "",
