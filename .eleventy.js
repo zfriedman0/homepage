@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget('src/sass');
 
     // Copy the 'css' directory to the output (_site folder)
-    eleventyConfig.addPassthroughCopy('src/css');
+    eleventyConfig.addPassthroughCopy('public/css');
 
     eleventyConfig.addFilter('readableDate', (dateObj) => {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(

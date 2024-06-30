@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch:eleventy": "npx @11ty/eleventy --serve",
-    "watch:sass": "sass --watch src/sass:public/css",
+    "watch:sass": "npm run sass -- --watch src/sass:public/css",
     "start": "npm run watch:eleventy & npm run watch:sass",
     "build": "npm run sass && eleventy"
   },
