@@ -1,4 +1,24 @@
 @charset "utf-8";
+// Import only what you need from Bulma
+// Base styles
+@use "../../node_modules/bulma/sass/base";
+@use "../../node_modules/bulma/sass/themes";
+
+// Elements
+@use "../../node_modules/bulma/sass/elements/button.scss";
+@use "../../node_modules/bulma/sass/elements/title";
+
+// Form styles
+@use "../../node_modules/bulma/sass/form";
+
+// Components
+@use "../../node_modules/bulma/sass/components";
+
+// Layouts
+@use "../../node_modules/bulma/sass/layout/container";
+@use "../../node_modules/bulma/sass/layout/hero";
+@use "../../node_modules/bulma/sass/layout/section";
+@use "../../node_modules/bulma/sass/layout/footer";
 
 // Import a Google Font
 // @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
@@ -34,26 +54,6 @@ $input-shadow: none;
 $link-hover: $grey-light;
 $title-color: $white;
 $navbar-item-color: $link;
-
-// Import only what you need from Bulma
-// Base styles
-@use "bulma/sass" as *;
-
-// Elements
-@use "bulma/sass/elements/button" as *;
-@use "bulma/sass/elements/container" as *;
-@use "bulma/sass/elements/title" as *;
-
-// Form styles
-@use "bulma/sass/form" as *;
-
-// Components
-@use "bulma/sass/components" as *;
-
-// Layouts
-@use "bulma/sass/layout/hero" as *;
-@use "bulma/sass/layout/section" as *;
-@use "bulma/sass/layout/footer" as *;
 
 footer{
     text-align: center;
