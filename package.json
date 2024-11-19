@@ -7,7 +7,7 @@
     "watch:eleventy": "npx @11ty/eleventy --serve",
     "watch:sass": "npx sass src/sass:public/_site/css --watch",
     "start": "npm run watch:eleventy & npm run watch:sass",
-    "build": "npm run sass && eleventy"
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",
