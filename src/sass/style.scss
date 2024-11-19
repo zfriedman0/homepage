@@ -36,16 +36,24 @@ $title-color: $white;
 $navbar-item-color: $link;
 
 // Import only what you need from Bulma
-@import "../../node_modules/bulma/sass/utilities/_all.sass";
-@import "../../node_modules/bulma/sass/base/_all.sass";
-@import "../../node_modules/bulma/sass/elements/button.sass";
-@import "../../node_modules/bulma/sass/elements/container.sass";
-@import "../../node_modules/bulma/sass/elements/title.sass";
-@import "../../node_modules/bulma/sass/form/_all.sass";
-@import "../../node_modules/bulma/sass/components/navbar.sass";
-@import "../../node_modules/bulma/sass/layout/hero.sass";
-@import "../../node_modules/bulma/sass/layout/section.sass";
-@import "../../node_modules/bulma/sass/layout/footer.sass";
+// Base styles
+@use "bulma/sass" as *;
+
+// Elements
+@use "bulma/sass/elements/button" as *;
+@use "bulma/sass/elements/container" as *;
+@use "bulma/sass/elements/title" as *;
+
+// Form styles
+@use "bulma/sass/form" as *;
+
+// Components
+@use "bulma/sass/components" as *;
+
+// Layouts
+@use "bulma/sass/layout/hero" as *;
+@use "bulma/sass/layout/section" as *;
+@use "bulma/sass/layout/footer" as *;
 
 footer{
     text-align: center;
