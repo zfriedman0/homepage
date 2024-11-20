@@ -5,7 +5,7 @@
 @use "../../node_modules/bulma/sass/themes";
 
 // Elements
-@use "../../node_modules/bulma/sass/elements/button.scss";
+@use "../../node_modules/bulma/sass/elements/button";
 @use "../../node_modules/bulma/sass/elements/title";
 
 // Form styles
@@ -31,7 +31,7 @@ $blue: #7D82B8;
 $orange: #ED7D3A;
 $grey: #777777;
 $white: #FDFFFC;
-$grey-dark: #211f22;
+$grey-dark: #211F22;
 $black: #000000;
 
 // Update Bulma's global variables
@@ -57,14 +57,12 @@ $navbar-item-color: $link;
 
 footer{
     text-align: center;
-    //box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.5)
+    box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
-/*
 nav{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
-*/
 
 .content{
     padding-top: 1rem;
