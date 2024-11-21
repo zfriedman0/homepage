@@ -9,29 +9,46 @@
     <body>
         <header><nav class="navbar is-grey-dark" role="navigation" aria-label="main-navigation">
     <div class="container">
+        <!-- Navbar Brand -->
         <div class="navbar-brand">
-            <div class="navbar-start">
-                <a href="/" class="navbar-item has-text-weight-bold">
-                    Home
-                </a>
+        <!-- Navbar Menu -->
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="/" class="navbar-item">
+                        Home
+                    </a>
 
-                <a href="/about" class="navbar-item">
-                    About
-                </a>
+                    <a href="/about" class="navbar-item">
+                        About
+                    </a>
 
-                <a href="/posts" class="navbar-item">
-                    Blog
-                </a>
+                    <a href="/posts" class="navbar-item">
+                        Blog
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="navbar-end">
-            <div class="navbar-item">
-                <a href="/">zfriedman.dev</a>
-            </div>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
         </div>
     </div>
-</nav></header>
-        <main class="is-fullheight-100vh">
+</nav>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const burger = document.querySelector(".navbar-burger");
+        const menu = document.querySelector("#navbarMenu");
+
+        burger.addEventListener("click", () => {
+            burger.classList.toggle("is-active");
+            menu.classList.toggle("is-active");
+        });
+    });
+</script></header>
+        <main>
             
 <article class="page-layout is-dark">
     <div class="container">
