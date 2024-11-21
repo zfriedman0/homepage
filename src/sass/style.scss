@@ -55,14 +55,20 @@ $link-hover: $grey-light;
 $title-color: $white;
 $navbar-item-color: $link;
 
-footer{
-    text-align: center;
-    box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.5);
+.is-fullheight-100vh{
+    height: 100vh;
 }
 
+footer{
+    text-align: center;
+    //box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+/*
 nav{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
+*/
 
 .content{
     padding-top: 1rem;
