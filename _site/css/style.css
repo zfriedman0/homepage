@@ -7658,6 +7658,29 @@ nav{
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 */
+.navbar-menu {
+  position: static; /* Default positioning */
+  background-color: rgba(0, 0, 0, 0.9); /* Optional: Add a background for better contrast */
+  transition: all 0.3s ease; /* Smooth opening effect */
+}
+
+.navbar.is-grey-dark .navbar-menu {
+  background-color: var(--grey-dark, #211f22); /* Optional: Ensure background matches theme */
+}
+
+.navbar-menu.is-active {
+  position: absolute; /* Overlay the rest of the site */
+  top: 100%; /* Align just below the navbar */
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it appears above other content */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+.navbar-burger {
+  z-index: 1100; /* Ensure the burger icon stays above the menu */
+}
+
 .content {
   padding-top: 1rem;
   padding-bottom: 1rem;
