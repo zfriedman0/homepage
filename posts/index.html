@@ -9,20 +9,18 @@
     <body>
         <header><nav class="navbar is-grey-dark" role="navigation" aria-label="main-navigation">
     <div class="container">
-        <!-- Navbar Brand -->
         <div class="navbar-brand">
-        <!-- Navbar Menu -->
-            <div id="navbarMenu" class="navbar-menu">
+            <div id="navbar-menu" class="navbar-menu">
                 <div class="navbar-start">
-                    <a href="/" class="navbar-item">
+                    <a href="/" class="navbar-item ">
                         Home
                     </a>
 
-                    <a href="/about" class="navbar-item">
+                    <a href="/about" class="navbar-item ">
                         About
                     </a>
 
-                    <a href="/posts" class="navbar-item">
+                    <a href="/posts" class="navbar-item is-active">
                         Blog
                     </a>
                 </div>
@@ -40,7 +38,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", () => {
         const burger = document.querySelector(".navbar-burger");
-        const menu = document.querySelector("#navbarMenu");
+        const menu = document.querySelector("#navbar-menu");
 
         burger.addEventListener("click", () => {
             burger.classList.toggle("is-active");
@@ -50,7 +48,7 @@
 </script></header>
         <main>
             
-<article class="page-layout is-dark">
+<article class="page-layout is-primary">
     <div class="container">
         <div class="columns">
             <div class="column is-8 is-offset-2">
@@ -73,15 +71,19 @@
     </div>
 </article>
         </main>
-        <footer><footer class="footer is-grey-dark mt-auto">
+        <footer><footer class="footer mt-auto">
     <div class="content has-text-centered">
         <div class="container">
             <p>
-                &copy; 2024 Zach Friedman. Built with <a href="https://www.11ty.dev/">11ty</a> and hosted on <a href="https://github.com/zfriedman0/zfriedman0.github.io">GitHub</a>.
+                &copy; 2024 Zach Friedman. Built with <a href="https://www.11ty.dev/">11ty</a>.
             </p>
+
+            <a href="https://github.com/zfriedman0"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/zacherymfriedman/"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </div>
-</footer> 
 </footer>
+
+<script src="https://kit.fontawesome.com/761e73f4ac.js" crossorigin="anonymous"></script></footer>
     </body>
 </html>
