@@ -1,62 +1,75 @@
 @charset "utf-8";
-// Import only what you need from Bulma
-// Base styles
-@use "../../node_modules/bulma/sass/base";
-@use "../../node_modules/bulma/sass/themes";
-
-// Elements
-@use "../../node_modules/bulma/sass/elements/button";
-@use "../../node_modules/bulma/sass/elements/title";
-
-// Form styles
-@use "../../node_modules/bulma/sass/form";
-
-// Components
-@use "../../node_modules/bulma/sass/components";
-
-// Layouts
-@use "../../node_modules/bulma/sass/layout/container";
-@use "../../node_modules/bulma/sass/layout/hero";
-@use "../../node_modules/bulma/sass/layout/section";
-@use "../../node_modules/bulma/sass/layout/footer";
 
 // Import a Google Font
-// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+//@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 // Set your brand colors
-$red: #C1292E;
-$green: #0CCE6B;
-$yellow: #F1D302;
-$blue: #7D82B8;
-$orange: #ED7D3A;
-$grey: #777777;
-$white: #FDFFFC;
-$grey-dark: #211F22;
-$black: #000000;
+//$red: #C1292E;
+//$green: #0CCE6B;
+//$yellow: #F1D302;
+//$blue: #7D82B8;
+//$orange: #ED7D3A;
+//$grey-light: #777777;
+//$white: #FDFFFC;
+//$grey-dark: #211F22;
+//$black: #000000;
 
-// Update Bulma's global variables
-$family-sans-serif: "Roboto", sans-serif;
-$grey-light: $white;
-$primary: $grey-dark;
-$link: $blue;
-$text: $white;
-$info: $blue;
-$success: $green;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+$grey-dark: #253031;
+$grey-light: #315659;
+$blue-dark: #2978A0;
+$blue-light: #C6E0FF;
+$beige-dark: #BCAB79;
+$beige-light: #EBEBD3;
+$red-light: #FE5F55;
+$red-dark: #C5283D;
+$green-light: #4CB963;
 
-// Update some of Bulma's component variables
-$body-background-color: $primary;
-$footer-background-color: $primary;
-$control-border-width: 2px;
-$input-border-color: transparent;
-$input-shadow: none;
-$link-hover: $grey-light;
-$title-color: $white;
-$navbar-item-color: $link;
 
-.is-fullheight-100vh{
-    height: 100vh;
+// Path to Bulma's sass folder
+@use "../../node_modules/bulma/sass" with (
+  $family-primary: '"Roboto", sans-serif',
+  $primary: $grey-dark,
+  $link: $beige-dark,
+  $control-border-width: 2px,
+  $input-shadow: none,
+  $footer-background-color: $grey-dark,
+  $navbar-item-color: $beige-light,
+  $navbar-background-color: $grey-dark,
+  //$navbar-tab-active-border-bottom-color: $blue,
+  //$navbar-tab-hover-border-bottom-color: $blue,
+  //$navbar-tab-active-border-bottom-style: solid
+);
+
+.navbar a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+a.navbar-item:hover {
+    background-color: transparent;
+    border-bottom: 3px solid $beige-light;
+    color: $beige-light;
+}
+
+a.navbar-item.is-active{
+    background-color: transparent;
+    border-bottom: 3px solid $red-light; 
+    color: $red-light;
+}
+
+.content {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+p a:hover {
+    color: white;
+}
+
+i:hover {
+    color: white;
 }
 
 footer{
@@ -64,17 +77,7 @@ footer{
     //box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
-navbar-item{
-    background-color: $grey-dark;
-}
-
-/*
-nav{
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-}
-*/
-
-.content{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+::selection {
+    background: $red-light;
+    color: white;
 }

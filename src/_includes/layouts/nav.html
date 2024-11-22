@@ -1,19 +1,17 @@
 <nav class="navbar is-grey-dark" role="navigation" aria-label="main-navigation">
     <div class="container">
-        <!-- Navbar Brand -->
         <div class="navbar-brand">
-        <!-- Navbar Menu -->
-            <div id="navbarMenu" class="navbar-menu">
+            <div id="navbar-menu" class="navbar-menu">
                 <div class="navbar-start">
-                    <a href="/" class="navbar-item">
+                    <a href="/" class="navbar-item {% if page.url == '/' %}is-active{% endif %}">
                         Home
                     </a>
 
-                    <a href="/about" class="navbar-item">
+                    <a href="/about" class="navbar-item {% if page.url == '/about/' %}is-active{% endif %}">
                         About
                     </a>
 
-                    <a href="/posts" class="navbar-item">
+                    <a href="/posts" class="navbar-item {% if page.url == '/posts/' %}is-active{% endif %}">
                         Blog
                     </a>
                 </div>
@@ -31,7 +29,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", () => {
         const burger = document.querySelector(".navbar-burger");
-        const menu = document.querySelector("#navbarMenu");
+        const menu = document.querySelector("#navbar-menu");
 
         burger.addEventListener("click", () => {
             burger.classList.toggle("is-active");
