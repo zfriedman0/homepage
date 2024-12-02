@@ -21599,7 +21599,7 @@ footer {
 
 @media screen and (max-width: 800px) {
   .navbar-brand {
-    align-items: center;
+    display: none !important;
   }
 }
 
