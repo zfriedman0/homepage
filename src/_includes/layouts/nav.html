@@ -1,39 +1,24 @@
 <nav class="navbar is-grey-dark" role="navigation" aria-label="main-navigation">
     <div class="container">
         <div class="navbar-brand">
-            <div id="navbar-menu" class="navbar-menu">
-                <div class="navbar-start">
-                    <a href="/" class="navbar-item {% if page.url == '/' %}is-active{% endif %}">
-                        Home
-                    </a>
-
-                    <a href="/about" class="navbar-item {% if page.url == '/about/' %}is-active{% endif %}">
-                        About
-                    </a>
-
-                    <a href="/posts" class="navbar-item {% if page.url == '/posts/' %}is-active{% endif %}">
-                        Blog
-                    </a>
-                </div>
+            <div class="content">
+                <p><a href="/">Zach Friedman</a></p>
             </div>
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
+        </div>
+        <div id="navbar-menu" class="navbar-menu">
+            <div class="navbar-end">
+                <a href="/" class="navbar-item {% if page.url == '/' %}is-active{% endif %}">
+                    Home
+                </a>
+
+                <a href="/about" class="navbar-item {% if page.url == '/about/' %}is-active{% endif %}">
+                    About
+                </a>
+
+                <a href="/posts" class="navbar-item {% if page.url == '/posts/' %}is-active{% endif %}">
+                    Blog
+                </a>
+            </div>
         </div>
     </div>
 </nav>
-
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const burger = document.querySelector(".navbar-burger");
-        const menu = document.querySelector("#navbar-menu");
-
-        burger.addEventListener("click", () => {
-            burger.classList.toggle("is-active");
-            menu.classList.toggle("is-active");
-        });
-    });
-</script>

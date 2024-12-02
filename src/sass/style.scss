@@ -27,41 +27,49 @@ $green-light: #4CB963;
 
 // Path to Bulma's sass folder
 @use "../../node_modules/bulma/sass" with (
-  $family-primary: '"Roboto", sans-serif',
+  $family-primary: '"Rubik", sans-serif',
   $primary: $grey-dark,
   $link: $beige-dark,
   $control-border-width: 2px,
   $input-shadow: none,
-  $footer-background-color: $grey-dark,
-  $navbar-item-color: $beige-light,
-  $navbar-background-color: $grey-dark,
+  //$footer-background-color: $grey-dark,
+  $navbar-item-color: $beige-dark,
+  //$navbar-background-color: transparent,
   //$navbar-tab-active-border-bottom-color: $blue,
   //$navbar-tab-hover-border-bottom-color: $blue,
   //$navbar-tab-active-border-bottom-style: solid
 );
 
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.navbar {
+    font-family: "Space Mono", monospace;
+}
+
 .navbar a {
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 16px;
     text-decoration: none;
-    border-bottom: 3px solid transparent;
 }
 
 a.navbar-item:hover {
     background-color: transparent;
-    border-bottom: 3px solid $beige-light;
     color: $beige-light;
 }
 
 a.navbar-item.is-active{
-    background-color: transparent;
-    border-bottom: 3px solid $red-light; 
+    background-color: transparent; 
     color: $red-light;
 }
 
 .content {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.page-title {
+    font-family: "Space Mono", sans-serif;
 }
 
 p a:hover {
@@ -72,9 +80,10 @@ i:hover {
     color: white;
 }
 
-footer{
+footer {
+    font-family: "Rubik", sans-serif;
+    border-top: 1px solid $beige-dark;
     text-align: center;
-    //box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.5);
 }
 
 ::selection {
