@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* Bulma Utilities */
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 :root {
   --bulma-control-radius: var(--bulma-radius);
   --bulma-control-radius-small: var(--bulma-radius-small);
@@ -46,7 +48,7 @@
   --bulma-scheme-invert-ter-l: 14%;
   --bulma-scheme-invert-bis-l: 7%;
   --bulma-scheme-invert-l: 4%;
-  --bulma-family-primary: "Roboto", sans-serif;
+  --bulma-family-primary: "Rubik", sans-serif;
   --bulma-family-secondary: Inter, SF Pro, Segoe UI, Roboto, Oxygen, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
   --bulma-family-code: Inconsolata, Hack, SF Mono, Roboto Mono, Source Code Pro, Ubuntu Mono, monospace;
   --bulma-size-small: 0.75rem;
@@ -947,7 +949,7 @@
     --bulma-scheme-invert-ter-l: 14%;
     --bulma-scheme-invert-bis-l: 7%;
     --bulma-scheme-invert-l: 4%;
-    --bulma-family-primary: "Roboto", sans-serif;
+    --bulma-family-primary: "Rubik", sans-serif;
     --bulma-family-secondary: Inter, SF Pro, Segoe UI, Roboto, Oxygen, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
     --bulma-family-code: Inconsolata, Hack, SF Mono, Roboto Mono, Source Code Pro, Ubuntu Mono, monospace;
     --bulma-size-small: 0.75rem;
@@ -1865,7 +1867,7 @@
   --bulma-scheme-invert-ter-l: 14%;
   --bulma-scheme-invert-bis-l: 7%;
   --bulma-scheme-invert-l: 4%;
-  --bulma-family-primary: "Roboto", sans-serif;
+  --bulma-family-primary: "Rubik", sans-serif;
   --bulma-family-secondary: Inter, SF Pro, Segoe UI, Roboto, Oxygen, Ubuntu, Helvetica Neue, Helvetica, Arial, sans-serif;
   --bulma-family-code: Inconsolata, Hack, SF Mono, Roboto Mono, Source Code Pro, Ubuntu Mono, monospace;
   --bulma-size-small: 0.75rem;
@@ -7150,7 +7152,7 @@ button.dropdown-item.is-selected {
   --bulma-navbar-h: var(--bulma-scheme-h);
   --bulma-navbar-s: var(--bulma-scheme-s);
   --bulma-navbar-l: var(--bulma-scheme-main-l);
-  --bulma-navbar-background-color: #253031;
+  --bulma-navbar-background-color: var(--bulma-scheme-main);
   --bulma-navbar-box-shadow-size: 0 0.125em 0 0;
   --bulma-navbar-box-shadow-color: var(--bulma-background);
   --bulma-navbar-padding-vertical: 1rem;
@@ -7163,7 +7165,7 @@ button.dropdown-item.is-selected {
   --bulma-navbar-item-hover-background-l-delta: var(--bulma-hover-background-l-delta);
   --bulma-navbar-item-active-background-l-delta: var(--bulma-active-background-l-delta);
   --bulma-navbar-item-color-l: var(--bulma-text-l);
-  --bulma-navbar-item-color: #EBEBD3;
+  --bulma-navbar-item-color: #BCAB79;
   --bulma-navbar-item-selected-h: var(--bulma-link-h);
   --bulma-navbar-item-selected-s: var(--bulma-link-s);
   --bulma-navbar-item-selected-l: var(--bulma-link-l);
@@ -13140,7 +13142,7 @@ label.panel-block:hover {
 }
 
 .footer {
-  --bulma-footer-background-color: #253031;
+  --bulma-footer-background-color: var(--bulma-scheme-main-bis);
   --bulma-footer-color: false;
   --bulma-footer-padding: 3rem 1.5rem 6rem;
   background-color: var(--bulma-footer-background-color);
@@ -21032,7 +21034,7 @@ has-background-danger.is-hoverable:active {
 }
 
 .is-family-primary {
-  font-family: '"Roboto", sans-serif' !important;
+  font-family: '"Rubik", sans-serif' !important;
 }
 
 .is-family-secondary {
@@ -21547,28 +21549,33 @@ has-background-danger.is-hoverable:active {
   pointer-events: all !important;
 }
 
+.navbar {
+  font-family: "Space Mono", monospace;
+}
+
 .navbar a {
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 16px;
   text-decoration: none;
-  border-bottom: 3px solid transparent;
 }
 
 a.navbar-item:hover {
   background-color: transparent;
-  border-bottom: 3px solid #EBEBD3;
   color: #EBEBD3;
 }
 
 a.navbar-item.is-active {
   background-color: transparent;
-  border-bottom: 3px solid #FE5F55;
   color: #FE5F55;
 }
 
 .content {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.page-title {
+  font-family: "Space Mono", sans-serif;
 }
 
 p a:hover {
@@ -21580,6 +21587,8 @@ i:hover {
 }
 
 footer {
+  font-family: "Rubik", sans-serif;
+  border-top: 1px solid #BCAB79;
   text-align: center;
 }
 
