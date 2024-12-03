@@ -21580,7 +21580,7 @@ h1.page-title {
 }
 
 p a:hover {
-  color: white;
+  color: #EBEBD3;
 }
 
 i:hover {
@@ -21592,12 +21592,25 @@ footer {
   text-align: center;
 }
 
+h1.section-title {
+  font-family: "Space Mono", monospace;
+  color: #BCAB79;
+}
+
+h3.section-subtitle {
+  color: #EBEBD3;
+}
+
+.title {
+  font-family: "Space Mono", monospace;
+}
+
 ::selection {
   background: #FE5F55;
   color: white;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1025px) {
   .navbar-brand {
     display: none !important;
   }
