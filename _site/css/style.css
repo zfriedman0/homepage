@@ -21614,6 +21614,9 @@ h3.section-subtitle {
   .navbar-brand {
     display: none !important;
   }
+  .navbar-end {
+    display: flex !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

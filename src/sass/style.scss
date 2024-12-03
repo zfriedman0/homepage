@@ -80,7 +80,6 @@ i:hover {
 
 footer {
     font-family: "Rubik", sans-serif;
-    //border-top: 1px solid $beige-dark;
     text-align: center;
 }
 
@@ -105,5 +104,9 @@ h3.section-subtitle {
 @media screen and (max-width: 1025px) {
     .navbar-brand {
       display: none !important;
+    }
+
+    .navbar-end {
+        display: flex !important;
     }
   }
